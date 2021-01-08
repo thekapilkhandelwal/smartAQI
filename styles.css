@@ -26,7 +26,7 @@
 
 .content__title {
   margin: 30px;
-  background-color: #1b223d;
+  background-color: #191f36;
 }
 
 .main__othercities {
@@ -36,6 +36,9 @@
   padding-top: 40px;
   display: flex;
   flex-direction: row;
+}
+.one {
+  display: flex;
 }
 
 .main__content {
@@ -57,9 +60,49 @@
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .current {
   color: #f1f3f8;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    display: block;
+  }
+  .content__differntIndexes {
+    padding-top: 40px;
+    display: none;
+  }
+
+  .body {
+    margin: 0;
+  }
+  .graph {
+    width: 100%;
+  }
+  .main__othercities {
+    width: 100%;
+  }
+  .menu__content {
+    display: flex;
+    background-color: #191f36;
+    width: 100%;
+  }
+  .content__title {
+    margin: auto;
+  }
+  .heading {
+    margin: 10px;
+  }
+  .main__othercities {
+    margin-top: 30px;
+  }
+  .othercities__content {
+    margin-top: 20px;
+  }
+  .news__content {
+    width: 90%;
+  }
 }
